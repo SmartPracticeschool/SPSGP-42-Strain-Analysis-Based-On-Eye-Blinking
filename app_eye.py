@@ -1,6 +1,4 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %%
+#importing necessary libraries
 from imutils.video import FileVideoStream
 from imutils.video import VideoStream
 from imutils import face_utils
@@ -18,7 +16,6 @@ from playsound import playsound
 from scipy.spatial import distance as dist
 
 
-# %%
 
 
 
