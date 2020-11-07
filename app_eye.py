@@ -16,8 +16,6 @@ import tkinter as tk
 from tkinter import ttk
 from playsound import playsound
 from scipy.spatial import distance as dist
-print("hello")
-print("hii")
 
 
 # %%
