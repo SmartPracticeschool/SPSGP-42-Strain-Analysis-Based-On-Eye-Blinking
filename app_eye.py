@@ -47,7 +47,11 @@ def eye_aspect_ratio(eye):
     ear = (A + B) / (2.0 * C)
     return ear
 
-
+#constructing parser
+ap = argparse.ArgumentParser()
+ap.add_argument("-p", "--shape-predictor",required=True,help="path to facial landmark predictor")
+#ap.add_argument("-v","--video",type=str,default="",help="path to input video file")
+args = vars(ap.parse_args())
 
 
 
